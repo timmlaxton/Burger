@@ -9,7 +9,6 @@ const burger = (props) => {
             <BurgerIngredient type="bread-top" />
             <BurgerIngredient type="cheese" />
             <BurgerIngredient type="meat" />
-            <BurgerIngredient types="bacon"/>
             <BurgerIngredient type="bread-bottom" />
 
             </div>
