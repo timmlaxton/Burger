@@ -111,3 +111,25 @@
     background: linear-gradient(#bf3813, #c45e38);
     margin: 2% auto;
 }
+
+.Pickles {
+  width: 60%;
+  height: 10%;
+  margin: 2% auto;
+  background: linear-gradient(#1d8c58, #50ce8f);
+  border-radius: 30px;
+}
+
+.Chillies {
+  width: 80%;
+  height: 6%;
+  background: linear-gradient(#bf1321, #c43838);
+  margin: 2% auto;
+}
+
+.Tomatoes {
+  width: 40%;
+  height: 5%;
+  background: linear-gradient(#bf1313, #bf1313);
+  margin: 2% auto;
+}
