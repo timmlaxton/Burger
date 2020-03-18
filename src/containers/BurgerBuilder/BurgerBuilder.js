@@ -32,7 +32,7 @@ class BurgerBuilder extends Component {
             chillies: 0,
             tomatoes: 0,
         },
-        ingredients:null,
+        ingredient:null,
         totalPrice: 4,
         purchasable: false,
         purchasing: false,

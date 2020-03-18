@@ -4,7 +4,7 @@ import classes from './Modal.module.css';
 import Aux from '../../../hoc/Aux/Aux';
 import Backdrop from '../Backdrop/Backdrop';
 
-class  Modal extends Component  {
+class Modal extends Component   {
 
     shouldComponentUpdate(nextProps, nextState) {
         return nextProps.show !== this.props.show || nextProps.childrem !== this.props.children;
@@ -16,8 +16,9 @@ class  Modal extends Component  {
     }
 
     render () {
-        return ( <Aux>
-            <Backdrop show={this.props.show} clicked={this.props.modalClosed} />
+        return ( 
+        <Aux>
+        <Backdrop show={this.props.show} clicked={this.props.modalClosed} />
     <div 
         className={classes.Modal}
         style={{
@@ -28,7 +29,7 @@ class  Modal extends Component  {
              </div>
          </Aux>
 
-        )
+        );
     }
 }
 
